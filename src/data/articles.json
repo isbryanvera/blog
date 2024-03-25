@@ -1,0 +1,170 @@
+[
+    {
+        "unsplashId": "photo-1707343848723-bd87dea7b118?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "css",
+                "link": "#"
+            }
+        ],
+        "title": "Web components",
+        "content": "Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza de sobrescritura en cascada, crea la combinación perfecta para generar un ambiente caótico rápidamente en proyectos de nivel empresarial..",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Juanito Pérez"
+        },
+        "time": "7 min",
+        "date": "2022-06-10"
+    },
+    {
+        "unsplashId": "photo-1710880693354-45d67b9884b0?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "css",
+                "link": "#"
+            }
+        ],
+        "title": "Design Tokens",
+        "content": "Los Design Tokens son las características de los elementos de la interfaz, como el color, la tipografía, el espaciado, las sombras… que se utilizan en todo un producto y que pueden convertirse a cualquier formato necesario, ya sea web, móvil o aplicaciones.",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Martha Lucia"
+        },
+        "time": "5 min",
+        "date": "2022-04-10"
+    },
+    {
+        "unsplashId": "photo-1711299253442-de19d4dacaae?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "Habitos",
+                "link": "#"
+            }
+        ],
+        "title": "Habitos saludables",
+        "content": "Llamamos hábitos saludables a todas aquellas conductas que tenemos asumidas como propias en nuestra vida cotidiana y que inciden positivamente en nuestro bienestar físico, mental y social. Determinan la presencia de factores de riesgo y/o de factores protectores para el bienestar.",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Alejandro Ramirez"
+        },
+        "time": "10 min",
+        "date": "2023-06-10"
+    },
+    {
+        "unsplashId": "photo-1682686578289-cf9c8c472c9b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "css",
+                "link": "#"
+            }
+        ],
+        "title": "Roadmaps",
+        "content": "Un roadmap, también conocido como hoja de ruta o plan de acción, se define como la secuencia general de pasos a seguir para alcanzar los objetivos del diseño de un producto o proyecto particular.",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Sandra Garcia"
+        },
+        "time": "7 min",
+        "date": "2024-01-01"
+    },
+    {
+        "unsplashId": "photo-1707343848723-bd87dea7b118?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "css",
+                "link": "#"
+            }
+        ],
+        "title": "Web components",
+        "content": "Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza de sobrescritura en cascada, crea la combinación perfecta para generar un ambiente caótico rápidamente en proyectos de nivel empresarial..",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Juanito Pérez"
+        },
+        "time": "7 min",
+        "date": "2022-06-10"
+    },
+    {
+        "unsplashId": "photo-1710880693354-45d67b9884b0?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "css",
+                "link": "#"
+            }
+        ],
+        "title": "Design Tokens",
+        "content": "Los Design Tokens son las características de los elementos de la interfaz, como el color, la tipografía, el espaciado, las sombras… que se utilizan en todo un producto y que pueden convertirse a cualquier formato necesario, ya sea web, móvil o aplicaciones.",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Martha Lucia"
+        },
+        "time": "5 min",
+        "date": "2022-04-10"
+    },
+    {
+        "unsplashId": "photo-1711299253442-de19d4dacaae?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "Habitos",
+                "link": "#"
+            }
+        ],
+        "title": "Habitos saludables",
+        "content": "Llamamos hábitos saludables a todas aquellas conductas que tenemos asumidas como propias en nuestra vida cotidiana y que inciden positivamente en nuestro bienestar físico, mental y social. Determinan la presencia de factores de riesgo y/o de factores protectores para el bienestar.",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Alejandro Ramirez"
+        },
+        "time": "10 min",
+        "date": "2023-06-10"
+    },
+    {
+        "unsplashId": "photo-1682686578289-cf9c8c472c9b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": [
+            {
+                "name": "Web components",
+                "link": "#"
+            },
+            {
+                "name": "css",
+                "link": "#"
+            }
+        ],
+        "title": "Roadmaps",
+        "content": "Un roadmap, también conocido como hoja de ruta o plan de acción, se define como la secuencia general de pasos a seguir para alcanzar los objetivos del diseño de un producto o proyecto particular.",
+        "author": {
+            "img": "https://i.pravatar.cc/300",
+            "name": "Sandra Garcia"
+        },
+        "time": "7 min",
+        "date": "2024-01-01"
+    }
+]
