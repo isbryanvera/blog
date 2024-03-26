@@ -1,8 +1,9 @@
 import { Tag } from "../Tag/Tag";
 import PropTypes from "prop-types";
-import { classnames } from "../../utils/utils"
+import { classnames } from "../../scripts/utils/classnames"
 import "./Card.scss";
 import { Autor } from "../Autor/Autor";
+import { Time } from "../Time/Time";
 
 function Card({
     unsplashId,
@@ -31,7 +32,8 @@ function Card({
                 })}
               </div>
               <h2 className="heading heading-sm font-bold">{title}</h2>
-              <time className="help-text paragraph-xs font-regular" dateTime="2022-06-10">{date}</time>
+              <Time date={date}></Time>
+              {/* <time className="help-text paragraph-xs font-regular" dateTime="2022-06-10">{date}</time> */}
             </header>
             <p className="paragraph paragraph-sm font-regular">{content}</p>
           </div>

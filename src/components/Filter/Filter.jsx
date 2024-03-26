@@ -1,4 +1,4 @@
-import { classnames } from "../../utils/utils";
+import { classnames } from "../../scripts/utils/classnames"
 import "./Filter.scss";
 
 const Filter = ({children, isActive , href='#', onClick }) => {

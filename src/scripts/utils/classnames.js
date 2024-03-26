@@ -1,9 +1,9 @@
 export function classnames(objeto) {
+    let classes = '';
     for (const key in objeto) {
         if (objeto[key]) {
-            return key
-        }else{
-            return ""
+            classes += key + ' ';
         }
-    }    
+    }
+    return classes.trim();
 }

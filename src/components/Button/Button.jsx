@@ -1,5 +1,5 @@
 import "./Button.scss";
-import { classnames } from "../../utils/utils"
+import { classnames } from "../../scripts/utils/classnames"
 
 function Button({children,type = 'secondary',onClick}) {
   return (

@@ -1,4 +1,4 @@
-import { classnames } from "../../utils/utils";
+import { classnames } from "../../scripts/utils/classnames"
 import "./Link.scss";
 
 function Link({ href = '#',children,isActive }) {
