@@ -1,9 +1,9 @@
-import "./Tag.css";
+import "./Tag.scss";
 import PropTypes from "prop-types";
 
-function Tag({title,link}) {
+function Tag({title,link, type}) {
   return (
-    <span className="tag tag-primary"><a href={link}>{title}</a></span>
+    <span className={`tag tag-${type}`}><a href={link}>{title}</a></span>
   )
 }
 

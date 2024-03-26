@@ -1,35 +1,48 @@
 import { Tag } from "../Tag/Tag";
 import PropTypes from "prop-types";
-import "./Card.css";
+import { classnames } from "../../utils/utils"
+import "./Card.scss";
+import { Autor } from "../Autor/Autor";
 
-function Card({unsplashId, tags, title,content, author, time, date}) {
-  return (
-    <article className="card">
-      <img src={`https://images.unsplash.com/${unsplashId}`}/>
-      <section>
-        <div className="card-content">
-          <header>
-            <div className="tags">
-              {tags.map((tag) => {
-                return <Tag key={tag.name} title={tag.name} link={tag.link}/>
-              })}
-            </div>
-            <h2 className="heading heading-sm font-bold">{title}</h2>
-            <time className="help-text paragraph-xs font-regular" dateTime="2022-06-10">{date}</time>
-          </header>
-          <p className="paragraph paragraph-sm font-regular">{content}</p>
-        </div>
-        <footer>
-          <div className="author">
-            <img src={author.img} alt={author.name} />
-            <span className="paragraph-xs font-bold">{author.name}</span>
+function Card({
+    unsplashId,
+    tags,
+    title,
+    content,
+    author,
+    time,
+    date,
+    isExtended,
+    isReversed
+  }) 
+  {
+    return (
+      <article className={`card ${classnames({
+        "is-extended": isExtended,
+        "is-reversed": isReversed
+      })}`}>
+        <img src={`https://images.unsplash.com/${unsplashId}`}/>
+        <section>
+          <div className="card-content">
+            <header>
+              <div className="tags">
+                {tags?.map((tag) => {
+                  return <Tag key={tag.name} title={tag.name} link={tag.link} type={isExtended ? 'secondary' : 'primary'}/>
+                })}
+              </div>
+              <h2 className="heading heading-sm font-bold">{title}</h2>
+              <time className="help-text paragraph-xs font-regular" dateTime="2022-06-10">{date}</time>
+            </header>
+            <p className="paragraph paragraph-sm font-regular">{content}</p>
           </div>
-          <span className="help-text paragraph-xs font-regular">{time}</span>
-        </footer>
-      </section>
-    </article>
-  )
-}
+          <footer>
+            <Autor name={author.name} img={author.img}></Autor>
+            <span className="help-text paragraph-xs font-regular">{time}</span>
+          </footer>
+        </section>
+      </article>
+    )
+  }
 
 Card.propTypes = {
   unsplashId: PropTypes.string,
@@ -41,4 +54,4 @@ Card.propTypes = {
   date: PropTypes.string
 }
 
-export { Card }
+export default Card

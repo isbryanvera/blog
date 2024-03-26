@@ -1,0 +1,8 @@
+.filter{
+    white-space: nowrap;
+}
+.is-active-filter .filter{
+    background-color: var(--color-back-pearl-900);
+    color: var(--color-aquarius-50);
+    padding: 8px 12px;
+}

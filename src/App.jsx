@@ -1,5 +1,9 @@
-import { Card } from "./components/Card/Card"
+import Button from "./components/Button"
+import Link from "./components/Link"
+import Card from "./components/Card"
 import articles from "./data/articles.json"
+import filters from "./data/filter.json"
+import TagsFilter from "./components/TagsFilter/TagsFilter"
 
 function App() {
 
@@ -10,10 +14,10 @@ function App() {
           <img src="/assets/logo-31ec8eaf.png" width="45px" height="45px" alt="logo propio" />
           <nav>
             <ul className="nav-list nav-list-header">
-              <li><a href="" className="text-button text-button-md font-bold is-active">Inicio</a></li>
-              <li><a href="" className="text-button text-button-md font-bold">Suscribirse</a></li>
-              <li><button className="button button-primary">Hablalo mi pez</button></li>
-              <li><button className="button button-secondary">Conoceme</button></li>
+              <li><Link isActive={true}>Inicio</Link></li>
+              <li><Link>Suscribirse</Link></li>
+              <li><Button type={'primary'}>Undefined Shell</Button></li>
+              <li><Button type={'secondary'}>Conoceme</Button></li>
             </ul>
           </nav>
         </header>
@@ -26,23 +30,12 @@ function App() {
             </div>
           </section>
           <section className="post-list-container">
-            <nav className="tags-filter">
-              <div className="filter-list-scroll-hider">
-                <ul className="nav-list filter-list">
-                  <li className="is-active-filter"><a className="filter paragraph-sm font-bold" href="#">Todos</a>
-                  </li>
-                  <li><a className="filter paragraph paragraph-sm font-bold" href="#">HTML</a></li>
-                  <li><a className="filter paragraph paragraph-sm font-bold" href="#">CSS</a></li>
-                  <li><a className="filter paragraph paragraph-sm font-bold" href="#">JavaScript</a></li>
-                  <li><a className="filter paragraph paragraph-sm font-bold" href="#">Web components</a></li>
-                  <li><a className="filter paragraph paragraph-sm font-bold" href="#">Sistemas de diseño</a></li>
-                </ul>
-              </div>
-              <input className="input" type="search" placeholder="Buscar" />
-            </nav>
+            <TagsFilter filters={filters}></TagsFilter>
             <div className="post-list">
-              {articles.map((article) => {
-                return <Card key={article.id} {...article}/>
+              {articles.map((article,index) => {
+                const isExtended = (index + 1) % 4 === 0
+                const isReversed = (index + 1) % 8 === 0
+                return <Card key={index} {...article} isExtended={isExtended} isReversed={isReversed}/>
               })}
             </div>
           </section>
